@@ -1,0 +1,34 @@
+# The name of the recipe.
+name: 'Jest Recipe'
+# The description of the recipe.
+description: 'Recipe para instalar Canvas y Webform.'
+# The type key is similar to the package key in module.info.yml. It can be used
+# to group Drupal recipes.
+type: 'Content type'
+install:
+  # An array of modules or themes to install if they are not already. The system
+  # will detect if it is a theme or a module. During the install only simple
+  # configuration from the new modules is created. This allows the Drupal recipe
+  # control over the configuration.
+  - node
+  - user
+  - system
+  - field
+  - field_ui
+  - image
+  - media
+  - media_library
+  - file
+  - views
+  - block
+  - canvas
+  - webform
+  - admin_toolbar
+  - admin_toolbar_tools
+  - gin
+config:
+  actions:
+    system.theme:
+      setAdminTheme: gin
+      # Note: you can also set the default theme for the site with the line below.
+      # setUseAdminTheme: true
