@@ -1,0 +1,16 @@
+{
+  "name": "drupal/jest_recipe",
+  "description": "Create a Drupal site created by Jest testing framework configured.",
+  "type": "drupal-recipe",
+  "keywords": [
+    "Drupal"
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "drupal/core": ">=11.2",
+    "drupal/canvas": "^1.0@RC",
+    "drupal/webform": "^6.3@beta",
+    "drupal/admin_toolbar": "^3.6",
+    "drupal/gin": "^5.0"
+  }
+}
