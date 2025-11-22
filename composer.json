@@ -5,9 +5,7 @@
   "keywords": [
     "Drupal"
   ],
-  "minimum-stability": "dev",
   "require": {
-    "drupal/core": ">=11.2",
     "drupal/canvas": "^1.0@RC",
     "drupal/webform": "^6.3@beta",
     "drupal/admin_toolbar": "^3.6",
